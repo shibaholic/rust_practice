@@ -5,5 +5,6 @@ use rust_practice::point_point_dist::point_point_dist;
 fn main() {
     // fizzbuzz(16);
     // guess_number();
+    // is_prime();
     point_point_dist();
 }
