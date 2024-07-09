@@ -1,0 +1,17 @@
+{
+    "editor.inlayHints.enabled": "off",
+    "vim.handleKeys": {
+        "<C-k>": false,
+        "<C-z>": false,
+        "<C-b>": false,
+        "<C-s>": false,
+        "<C-v>": false,
+        "<C-w>": false,
+        "<C-f>": false,
+        "<C-x>": false,
+        "<C-c>": false
+    }
+}
+
+
+  
