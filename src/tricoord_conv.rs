@@ -72,3 +72,46 @@ fn trichunk_to_coord(tricoord: TriCoord<i16>) -> Coord<f64> {
     
     return zx_coord;
 }
+
+// fn tricoord_array(side_size: i16) -> Vec<TriCoord<i16>> {
+    
+//     let triangular_number = 
+//     let mut vec:Vec<TriCoord<i16>> = Vec::with_capacity();
+
+//     let mut col_index = 0;
+//     loop {
+//         // first iterate the column tricoords
+//         if col_index == side_size {
+//             return 
+//         }
+
+//         let mut row_index = 0;
+//         loop {
+//             // second iterate the row tricoords
+//             if row_index == side_size {
+//                 break;
+//             }
+
+//             row_index += 1;
+//         }
+
+//         col_index += 1;
+//     }
+// }
+
+pub fn triangular_number_naive(n: i16) -> i16 {
+    let mut index = 0;
+    let mut sum = 0;
+    loop {
+        index += 1;
+        sum += index;
+
+        if index == n {
+            return sum; 
+        }
+    }
+}
+
+pub fn triangular_number_O1(n: i16) -> i16 {
+    return n * (n + 1) / 2;
+}
